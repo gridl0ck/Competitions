@@ -1,6 +1,6 @@
 import sys, os
 
-with open(os.path.join(os.path.dirname(__file__), "input.txt"), "r") as f:
+with open(os.path.join(os.path.dirname(__file__), "input2.txt"), "r") as f:
     lines = [line.rstrip().lower() for line in f.readlines()]
     first = 0
     second = 0
